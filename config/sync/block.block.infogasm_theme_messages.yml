@@ -1,0 +1,22 @@
+uuid: 21bc367d-eda5-4ea3-a6c4-34648628cf79
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: kdq8wLCNHcl91tt8fcrB8GWz361H4kDrQLYLJ6ezE-k
+id: infogasm_theme_messages
+theme: infogasm_theme
+region: highlighted
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

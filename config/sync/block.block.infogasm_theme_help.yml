@@ -1,0 +1,22 @@
+uuid: 9ef2a847-1edc-41f1-96e9-3c51dd1b74e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: xNqQdpV3KIGIrNWhQzeh0r6gc_D0ekp00f6gkgMEiSM
+id: infogasm_theme_help
+theme: infogasm_theme
+region: highlighted
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

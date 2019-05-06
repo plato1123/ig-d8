@@ -1,0 +1,25 @@
+uuid: 72063045-4408-4f6a-bcb4-209d0c5a4945
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: 5qI8n9Zi8PHJmK629Sbr_rZ_DtWazy2e_I2wx1Gk_VM
+id: infogasm_theme_branding
+theme: infogasm_theme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

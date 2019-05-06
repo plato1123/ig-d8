@@ -1,0 +1,3 @@
+enabled: 1
+css: '.breadcrumb {display:none;}'
+path: 'public://css_editor/businessgroup_zymphonies_theme.css'

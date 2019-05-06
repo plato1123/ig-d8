@@ -1,0 +1,52 @@
+uuid: db0e5e43-6a3f-4e67-9298-10d30cc1a571
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.author.body
+    - field.field.node.author.field_author_flair
+    - field.field.node.author.field_author_name
+    - node.type.author
+  module:
+    - image
+    - text
+    - user
+id: node.author.default
+targetEntityType: node
+bundle: author
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_author_flair:
+    weight: 103
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_author_name:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  sharethis:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

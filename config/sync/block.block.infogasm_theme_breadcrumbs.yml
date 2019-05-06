@@ -1,0 +1,22 @@
+uuid: dff6c09c-6872-480f-b9a0-fe7d674e54d7
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: 36Khlo5Rv4p-fB5gp6dJEiWlnsJQdOlGJg6uWVibpB0
+id: infogasm_theme_breadcrumbs
+theme: infogasm_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

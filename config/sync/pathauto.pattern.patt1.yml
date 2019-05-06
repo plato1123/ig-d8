@@ -1,0 +1,25 @@
+uuid: 9be466c7-dd65-49ed-9424-65aa92f670d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patt1
+label: patt1
+type: 'canonical_entities:node'
+pattern: '[node:title]-[node:nid]'
+selection_criteria:
+  3eb06e72-db3b-492c-abac-9f4c624044dd:
+    id: node_type
+    bundles:
+      article: article
+      entity_browser_test: entity_browser_test
+      news_post: news_post
+      page: page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 3eb06e72-db3b-492c-abac-9f4c624044dd
+selection_logic: and
+weight: -5
+relationships: {  }

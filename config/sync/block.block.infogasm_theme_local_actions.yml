@@ -1,0 +1,20 @@
+uuid: a0ecbebd-c582-489d-806d-708ae2558da2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: piHx0jJjdln_JQgMgESdBnH_x1FCv69TtLrvPdf3Lrc
+id: infogasm_theme_local_actions
+theme: infogasm_theme
+region: auto_hidden_block
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }
