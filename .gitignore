@@ -32,3 +32,7 @@ config/backup/*
 
 # Backups for docker
 build
+
+# Ignore sass cache
+web/themes/infogasm/infogasm_theme/.sass-cache/*
+

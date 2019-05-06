@@ -1,13 +1,12 @@
-
 /*Variables*/
 
-$fontFamily: 'Slabo 27px', serif;
-$titleFontFamily: 'Slabo 27px', serif;
-$baseFontSize: 16px;
+$fontFamily: "Slabo 27px", serif;
+$titleFontFamily: "Slabo 27px", serif;
+$baseFontSize: 18px;
 $bodyBGColor: #f7f7fa;
 $baseFontColor: #000;
 
-$linkColor: #f2989b;
+$linkColor: #090075;
 $linkColorHover: #e88185;
 
 /*Header*/
@@ -27,20 +26,20 @@ $borderColor: #e8e8e8;
 
 /*Mixins*/
 
-@mixin globalButton(){
-	background: $linkColor;
-	cursor: pointer;
-	color: #fff;
-	border: 0;
-	padding: 14px 30px;
-	line-height: 100%;
-	margin-right: 2px;
-	display: inline-block;
-	@include border-radius(0px);
-	@include transition(all 0.3s);
+@mixin globalButton() {
+  background: $linkColor;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+  padding: 14px 30px;
+  line-height: 100%;
+  margin-right: 2px;
+  display: inline-block;
+  @include border-radius(0px);
+  @include transition(all 0.3s);
 }
 
-@mixin globalButtonHover(){
-    background: $linkColorHover;
-    color: #fff;
+@mixin globalButtonHover() {
+  background: $linkColorHover;
+  color: #fff;
 }
