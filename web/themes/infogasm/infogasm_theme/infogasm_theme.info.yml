@@ -1,0 +1,67 @@
+name: Infogasm Theme based on Beauty Salon Zymphonies Theme
+type: theme
+description: 'Infogasm Theme, based on Bootstrap'
+package: core
+# core: 8.x
+
+#libraries
+libraries:
+  - infogasm_theme/bootstrap
+  - infogasm_theme/flexslider
+  - infogasm_theme/fontawesome
+  - infogasm_theme/smartmenus
+  - infogasm_theme/owl
+  - infogasm_theme/global-components
+
+#Regions
+regions:
+
+  #Header
+  header: 'Header'
+  primary_menu: 'Primary menu'
+
+  #Top widgets
+  topwidget_title: 'Top widget title'
+  topwidget_first: 'Top first widget'
+  topwidget_second: 'Top second widget'
+  topwidget_third: 'Top third widget' 
+
+  #Products widgets
+  topmessage: 'Top Message'
+
+  #Global region
+  highlighted: 'Highlighted' 
+  page_title: 'Page title'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Left sidebar'
+  sidebar_second: 'Right sidebar'
+
+  #Features widgets
+  features_title: 'Features title'
+  features_first: 'Features first widget'
+  features_second: 'Features second widget'
+  features_third: 'Features third widget'
+
+  #Bottom widgets
+  bottom_title: 'Bottom title'
+  bottom_first: 'Bottom first widget'
+  bottom_second: 'Bottom second widget'
+  bottom_third: 'Bottom third widget'
+  bottom_forth: 'Bottom forth widget'
+
+  #Footer widgets
+  footer_title: 'Footer title'
+  footer_first: 'Footer first widget'
+  footer_second: 'Footer second widget'
+  footer_third: 'Footer third widget'
+
+  #Auto hidden
+  auto_hidden_block: 'Auto hidden blocks'
+
+
+# Information added by Drupal.org packaging script on 2019-03-09
+version: '8.x-1.1'
+core: '8.x'
+project: 'infogasm_theme'
+datestamp: 1552150993
