@@ -1,0 +1,22 @@
+uuid: f37d92e9-4e4f-4400-9f53-68d69954e11d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - beauty_salon_zymphonies_theme
+_core:
+  default_config_hash: Ulx1cmRJNaHKPL0ZQJx82Zs_jNOpWPy9U1h20YGMi60
+id: beauty_salon_zymphonies_theme_breadcrumbs
+theme: beauty_salon_zymphonies_theme
+region: breadcrumb
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }
