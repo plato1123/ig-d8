@@ -1,0 +1,38 @@
+uuid: 28b8f704-a126-4b00-954e-6661e2404fd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_flair
+    - node.type.article
+  module:
+    - image
+id: node.article.field_author_flair
+field_name: field_author_flair
+entity_type: node
+bundle: article
+label: 'Author Flair'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: false
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

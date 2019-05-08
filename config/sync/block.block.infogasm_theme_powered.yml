@@ -1,0 +1,22 @@
+uuid: 2b6d96dd-50c5-4be2-8836-fb3395b2e571
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: gZLb88FeFqD6p7GSBLmqruT-moRMo71cOOqVBsbmqWM
+id: infogasm_theme_powered
+theme: infogasm_theme
+region: auto_hidden_block
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

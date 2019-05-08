@@ -6,6 +6,8 @@ dependencies:
     - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_author_flair
+    - field.field.node.article.field_author_name
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
     - image.style.large
@@ -37,6 +39,22 @@ content:
       pager_id: 0
       view_mode: default
     third_party_settings: {  }
+    region: content
+  field_author_flair:
+    weight: 7
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_author_name:
+    weight: 6
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
     region: content
   field_image:
     type: image

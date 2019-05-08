@@ -1,0 +1,22 @@
+uuid: de2db90e-2e68-42b2-bfd7-541c95399081
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: CpWc9RtSYOWSdeOfYr6W_xYuQpr8OshL_I5J5no_ZtA
+id: infogasm_theme_search
+theme: infogasm_theme
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

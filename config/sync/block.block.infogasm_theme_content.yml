@@ -1,0 +1,22 @@
+uuid: 42e57575-c03e-436e-8a6e-b5808081a915
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: a7rPlr-H56LzVhXX3LhvXHDb7I-Wg8FzT4NlmCeri-k
+id: infogasm_theme_content
+theme: infogasm_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2646ac60-49f6-4316-930d-a2006364dcad
+langcode: en
+status: true
+dependencies:
+  theme:
+    - infogasm_theme
+_core:
+  default_config_hash: hbvBlNR2Z-IipTzN_yLrVeoiO-VOy9qi1D2BlltvqJs
+id: infogasm_theme_local_tasks
+theme: infogasm_theme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
