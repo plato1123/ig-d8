@@ -1,0 +1,25 @@
+uuid: a2df0a6c-2fda-4303-bddc-b1736da5a67e
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a1975ab7-cc7d-47fe-a563-d75f21f2767d'
+  module:
+    - block_content
+  theme:
+    - drupal8_w3css_theme
+id: adsensetextonly
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'block_content:a1975ab7-cc7d-47fe-a563-d75f21f2767d'
+settings:
+  id: 'block_content:a1975ab7-cc7d-47fe-a563-d75f21f2767d'
+  label: 'Adsense text only'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

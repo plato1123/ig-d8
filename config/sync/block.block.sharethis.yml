@@ -1,0 +1,20 @@
+uuid: 40e82052-5976-4416-84dc-29477969dbc6
+langcode: en
+status: true
+dependencies:
+  module:
+    - sharethis
+  theme:
+    - drupal8_w3css_theme
+id: sharethis
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -9
+provider: null
+plugin: sharethis_block
+settings:
+  id: sharethis_block
+  label: Sharethis
+  provider: sharethis
+  label_display: '0'
+visibility: {  }

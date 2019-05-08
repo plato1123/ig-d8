@@ -1,0 +1,14 @@
+uuid: ee616637-9923-48d4-ab22-346c71c710be
+name: Infogasm
+mail: patrickm@digitalimmersion.org
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

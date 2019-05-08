@@ -1,0 +1,25 @@
+uuid: 89082949-d761-43ea-87f0-90bdebd0f52f
+langcode: en
+status: true
+dependencies:
+  module:
+    - disqus
+  theme:
+    - drupal8_w3css_theme
+id: disquscombinationwidget
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -11
+provider: null
+plugin: disqus_combination_widget
+settings:
+  id: disqus_combination_widget
+  label: 'Disqus: Combination Widget'
+  provider: disqus
+  label_display: '0'
+  items: '5'
+  color_theme: grey
+  default_tab_view: people
+  excerpt_length: '200'
+  hide_mods: 0
+visibility: {  }

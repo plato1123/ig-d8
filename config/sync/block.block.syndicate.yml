@@ -1,0 +1,21 @@
+uuid: c3aababb-aa5d-474e-a2a1-50c3cf7349bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - drupal8_w3css_theme
+id: syndicate
+theme: drupal8_w3css_theme
+region: footer_first
+weight: -14
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: Syndicate
+  provider: node
+  label_display: '0'
+  block_count: 10
+visibility: {  }

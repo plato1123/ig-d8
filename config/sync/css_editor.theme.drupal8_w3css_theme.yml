@@ -1,0 +1,3 @@
+enabled: 0
+css: "div .is-child \\, div .menu-level-2 {z-index:33}\r\n\r\n#header {\r\n    background: url(http://northwestfreshllc.digitalimmersion.info/sites/northwestfreshpdx.digitalimmersion.info/files/tactile_noise_@2X.png) top left repeat black;}\r\n\r\ndiv a .d8-has-image {display: inline;}\r\ndiv .w3-container, div .w3-panel {\r\n \r\n    font-size: 1.13em;}\r\n\r\n#welcome-text-inner > div:nth-child(2) > ins {float:left;}"
+path: 'public://css_editor/drupal8_w3css_theme.css'

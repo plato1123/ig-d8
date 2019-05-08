@@ -1,0 +1,24 @@
+uuid: 3043d3ec-81f0-4c1a-a933-82a68a60a176
+langcode: en
+status: true
+dependencies:
+  module:
+    - sharethis
+  theme:
+    - drupal8_w3css_theme
+id: sharethiswidget
+theme: drupal8_w3css_theme
+region: footer_second
+weight: -13
+provider: null
+plugin: sharethis_widget_block
+settings:
+  id: sharethis_widget_block
+  label: 'Sharethis Widget'
+  provider: sharethis
+  label_display: '0'
+  path: global
+  external_path: ''
+  sharethis_path: global
+  sharethis_path_external: ''
+visibility: {  }

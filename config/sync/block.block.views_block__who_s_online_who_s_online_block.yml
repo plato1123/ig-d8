@@ -1,0 +1,24 @@
+uuid: 0feb2972-89f7-4320-976f-e33755addc18
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.who_s_online
+  module:
+    - views
+  theme:
+    - drupal8_w3css_theme
+id: views_block__who_s_online_who_s_online_block
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -13
+provider: null
+plugin: 'views_block:who_s_online-who_s_online_block'
+settings:
+  id: 'views_block:who_s_online-who_s_online_block'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

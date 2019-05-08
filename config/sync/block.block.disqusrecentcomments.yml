@@ -1,0 +1,24 @@
+uuid: 2295bcfb-dacc-49a5-a4d6-aa1807bc52b3
+langcode: en
+status: true
+dependencies:
+  module:
+    - disqus
+  theme:
+    - drupal8_w3css_theme
+id: disqusrecentcomments
+theme: drupal8_w3css_theme
+region: footer_first
+weight: -13
+provider: null
+plugin: disqus_recent_comments
+settings:
+  id: disqus_recent_comments
+  label: 'Disqus: Recent Comments'
+  provider: disqus
+  label_display: '0'
+  items: '5'
+  show_avatars: '1'
+  avatar_size: '32'
+  excerpt_length: '200'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 00d10bd8-91eb-4203-b953-b4a11b1db809
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4fefec8d-9954-4718-b500-eef4060b79cf'
+  module:
+    - block_content
+  theme:
+    - drupal8_w3css_theme
+id: ad1_2
+theme: drupal8_w3css_theme
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'block_content:4fefec8d-9954-4718-b500-eef4060b79cf'
+settings:
+  id: 'block_content:4fefec8d-9954-4718-b500-eef4060b79cf'
+  label: Ad1
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
