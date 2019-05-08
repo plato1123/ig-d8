@@ -112,7 +112,8 @@
         "drupal/composer_manager": "^1.0@RC",
         "mikey179/vfsstream": "^1.6",
         "twig/twig": "1.37.1",
-        "drupal/beauty_salon_zymphonies_theme": "^1.1"
+        "drupal/beauty_salon_zymphonies_theme": "^1.1",
+        "drupal/masquerade": "^2.0@beta"
     },
     "repositories": {
         "0": {
