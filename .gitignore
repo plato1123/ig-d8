@@ -14,6 +14,7 @@ web/themes/contrib
 web/profiles/contrib
 web/wp-content
 web/themes/xterra_t1/assets/.sass-cache
+web/themes/infogasm/infogasm_theme/.sass-cache
 
 # Ignore Drupal's file directory
 web/sites/*/files
